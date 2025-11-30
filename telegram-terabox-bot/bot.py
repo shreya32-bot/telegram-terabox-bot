@@ -2,7 +2,7 @@ import logging
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 from terabox import get_video_from_terabox
 
-TOKEN = "<your telegram token>"   # <-- Apna token yahan daalna (GitHub par mat daalna)
+TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"   # <-- Apna token yahan daalna (GitHub par mat daalna)
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
