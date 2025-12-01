@@ -78,7 +78,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if size and size > MAX_FILE_SIZE:
         await status.edit_text(
             "⚠️ Video bahut badi hai (48 MB se zyada).\n"
-            "Main file send nahi kar sakt
+            await status.edit_text("Main file send nahi kar sakta, file size 48MB se badi hai.")
     print("Bot Running...")
     app.run_polling()
 
